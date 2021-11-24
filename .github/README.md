@@ -1,8 +1,18 @@
-# Bitmapped Icon GUI
+# Icon Bitmapper GUI
+
+## Screenshots
+### Dimension Selection
+![dimensions](https://github.com/Mindstormer-0/icon-editor/blob/main/.github/dimensions_screen.png?raw=true)
+### Main Editor
+![editor](https://github.com/Mindstormer-0/icon-editor/blob/main/.github/editor_screen.png?raw=true)
+### Advanced Dialog
+![advanced](https://github.com/Mindstormer-0/icon-editor/blob/main/.github/advanced_screen.png?raw=true)
+### Saving an Icon to 24-Bit Bitmap
+![save](https://github.com/Mindstormer-0/icon-editor/blob/main/.github/save_screen.png?raw=true)
 
 ## Folder Structure
 
-The workspace contains two folders, where:
+The workspace contains two main folders, where:
 
 - `src`: the folder to maintain sources
 - `lib`: the folder to maintain dependencies
