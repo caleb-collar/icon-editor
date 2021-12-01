@@ -29,10 +29,10 @@ public class Icon {
 
     //File IO.
     private FileOutputStream fo;
-    private ArrayList<ArrayList<Pixel>> pixels = new ArrayList<>(col);
+    protected ArrayList<ArrayList<Pixel>> pixels = new ArrayList<>(col);
 
     //Constructor.
-    private Icon(int x, int y) {
+    protected Icon(int x, int y) {
         col = x;
         row = y;
         for(int i=0; i < col; i++) {
@@ -133,7 +133,6 @@ public class Icon {
         return pixelArr;
     }
     
-    //Writes the bitmap to a byte array for appending to the file.
     private void writeBitmap(byte [] pixelArr) {
         try {
             fo.write(pixelArr);
